@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{A0210F96-F362-4E35-A33F-13C1A9BAF142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistanceCalculator", "ResistanceCalulator\ResistanceCalculator.csproj", "{2F4E7340-D075-42B3-9479-5A0C3B2DD56C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorViewer", "CalculatorViewer\CalculatorViewer.csproj", "{CBDC526A-4C57-443D-9C3D-E38AC0DCD8CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResistanceCalculator.Test", "ResistanceCalculator.Test\ResistanceCalculator.Test.csproj", "{E70AB7EA-81DD-4574-B44A-29C42BF859B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4E7340-D075-42B3-9479-5A0C3B2DD56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4E7340-D075-42B3-9479-5A0C3B2DD56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4E7340-D075-42B3-9479-5A0C3B2DD56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4E7340-D075-42B3-9479-5A0C3B2DD56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDC526A-4C57-443D-9C3D-E38AC0DCD8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDC526A-4C57-443D-9C3D-E38AC0DCD8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDC526A-4C57-443D-9C3D-E38AC0DCD8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDC526A-4C57-443D-9C3D-E38AC0DCD8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70AB7EA-81DD-4574-B44A-29C42BF859B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70AB7EA-81DD-4574-B44A-29C42BF859B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70AB7EA-81DD-4574-B44A-29C42BF859B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70AB7EA-81DD-4574-B44A-29C42BF859B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E70AB7EA-81DD-4574-B44A-29C42BF859B5} = {A0210F96-F362-4E35-A33F-13C1A9BAF142}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2A2C05E-7D08-4801-834C-824E36463BD3}
+	EndGlobalSection
+EndGlobal
